@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.tf.create_pattern.simple_factory</OriginalElement>
+  <nodes>
+    <node x="286.4351851851852" y="0.0">com.tf.create_pattern.simple_factory.Shape</node>
+    <node x="272.0" y="112.0">com.tf.create_pattern.simple_factory.Rectangle</node>
+    <node x="195.24074074074073" y="336.0">com.tf.create_pattern.simple_factory.FactoryPatternDemo</node>
+    <node x="0.0" y="112.0">com.tf.create_pattern.simple_factory.Square</node>
+    <node x="136.0" y="112.0">com.tf.create_pattern.simple_factory.Circle</node>
+    <node x="179.24074074074073" y="224.0">com.tf.create_pattern.simple_factory.ShapeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.tf.create_pattern.simple_factory.ShapeFactory" target="com.tf.create_pattern.simple_factory.Circle">
+      <point x="-23.5" y="-31.0" />
+      <point x="249.74074074074073" y="194.0" />
+      <point x="194.0" y="194.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.ShapeFactory" target="com.tf.create_pattern.simple_factory.Shape">
+      <point x="70.5" y="-31.0" />
+      <point x="343.74074074074076" y="204.0" />
+      <point x="431.5" y="204.0" />
+      <point x="431.5" y="92.0" />
+      <point x="366.9351851851852" y="92.0" />
+      <point x="23.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.ShapeFactory" target="com.tf.create_pattern.simple_factory.Rectangle">
+      <point x="23.5" y="-31.0" />
+      <point x="296.74074074074076" y="194.0" />
+      <point x="346.5" y="194.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.ShapeFactory" target="com.tf.create_pattern.simple_factory.Square">
+      <point x="-70.5" y="-31.0" />
+      <point x="202.74074074074073" y="204.0" />
+      <point x="58.0" y="204.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.Rectangle" target="com.tf.create_pattern.simple_factory.Shape">
+      <point x="0.0" y="-31.0" />
+      <point x="346.5" y="92.0" />
+      <point x="343.9351851851852" y="92.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.Square" target="com.tf.create_pattern.simple_factory.Shape">
+      <point x="0.0" y="-31.0" />
+      <point x="58.0" y="82.0" />
+      <point x="297.9351851851852" y="82.0" />
+      <point x="-46.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.FactoryPatternDemo" target="com.tf.create_pattern.simple_factory.ShapeFactory">
+      <point x="0.0" y="-31.0" />
+      <point x="47.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.FactoryPatternDemo" target="com.tf.create_pattern.simple_factory.Shape">
+      <point x="83.33333333333331" y="-31.0" />
+      <point x="403.574074074074" y="311.0" />
+      <point x="451.43518518518516" y="311.0" />
+      <point x="451.43518518518516" y="82.0" />
+      <point x="389.9351851851852" y="82.0" />
+      <point x="46.0" y="31.0" />
+    </edge>
+    <edge source="com.tf.create_pattern.simple_factory.Circle" target="com.tf.create_pattern.simple_factory.Shape">
+      <point x="0.0" y="-31.0" />
+      <point x="194.0" y="92.0" />
+      <point x="320.9351851851852" y="92.0" />
+      <point x="-23.0" y="31.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="545.0" y="189.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

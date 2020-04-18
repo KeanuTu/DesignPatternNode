@@ -52,22 +52,24 @@ public final class Integer {
 
 ***Step 01***：将系列中的每件产品明确声明为接口，确保每个产品变体（`产品等级`）都继承/实现产品接口。
 
-![Abstract_01](src/com/tf/create_pattern/image/Abstract_01.png)
+<div align="center">
 
-<div align="center" font-Size="10">同一对象的所有变体都必须放置在同一个类层次结构中</div>
+![Abstract_01](image/Abstract_01.png)
+
+  <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">同一对象的所有变体都必须放置在同一个类层次结构中</div>  
+
+</div>
 
 ***Step 02***：处理产品变体；声明`抽象工厂`接口里面包含所有类产品的方法，每个`具体工厂类`**继承**`抽象工厂类`并定义各自产品等级的产品（同类产品）
 
-![Abstract_01](src/com/tf/create_pattern/image/Abstract_02.png)
+![Abstract_01](image/Abstract_02.png)
 
 <div align="center" font-Size="10">
 每个具体工厂类都对应一个特定的产品变体</div>
 
 ### 📰结构
 
-![抽象工厂模式](src/com/tf/create_pattern/image/Abstract Factory.png)
-
-**简单来说**：多个产品如果相互依赖，就应该有一个抽象工厂类来具体生产！
+![抽象工厂模式](./image/AbstractFactory.png)
 
 > 工厂方法与抽象工厂区别：
 >
@@ -78,7 +80,7 @@ public final class Integer {
 
 产品族与产品等级结构示意图
 
-![产品族与产品等级](src\com\tf\create_pattern\image\Factory's Product.png)
+![产品族与产品等级](./image/FactoryProduct.png)
 
 **抽象工厂模式**：
 

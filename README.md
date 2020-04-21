@@ -3,6 +3,18 @@
 #### 介绍
 对于设计模式的代码总结和类图
 
+**模式：在某些场景下，针对某类问题的某种通用的解决方案。**
+
+场景：项目所在的环境
+
+问题：约束条件，项目目标等
+
+解决方案：通用、可复用的设计，解决约束达到目标。
+
+
+
+
+
 #### 六大设计原则
 [设计原则](src/com/tf/six_principle/README.md)
 
@@ -24,7 +36,7 @@
 
 
 
-[《设计模式：可复用面向对象软件的基础》]( [https://zh.wikipedia.org/zh-hans/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%8F%AF%E5%A4%8D%E7%94%A8%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80](https://zh.wikipedia.org/zh-hans/设计模式：可复用面向对象软件的基础) )是软件工程领域很重要的一本书， 提出和总结了对于一些常见软件设计问题的标准解决方案 。其作者是 [埃里希·伽玛](https://zh.wikipedia.org/wiki/埃里希·伽瑪)（Erich Gamma）、[Richard Helm](https://zh.wikipedia.org/w/index.php?title=Richard_Helm&action=edit&redlink=1)、[Ralph Johnson](https://zh.wikipedia.org/w/index.php?title=Ralph_Johnson&action=edit&redlink=1)和[John Vlissides](https://zh.wikipedia.org/w/index.php?title=John_Vlissides&action=edit&redlink=1) ，简称”四人组（Gang of Four，GoF）“的书。
+[《设计模式：可复用面向对象软件的基础》]( https://zh.wikipedia.org/zh-hans/设计模式：可复用面向对象软件的基础 )是软件工程领域很重要的一本书， 提出和总结了对于一些常见软件设计问题的标准解决方案 。其作者是 [埃里希·伽玛](https://zh.wikipedia.org/wiki/埃里希·伽瑪)（Erich Gamma）、[Richard Helm](https://zh.wikipedia.org/w/index.php?title=Richard_Helm&action=edit&redlink=1)、[Ralph Johnson](https://zh.wikipedia.org/w/index.php?title=Ralph_Johnson&action=edit&redlink=1)和[John Vlissides](https://zh.wikipedia.org/w/index.php?title=John_Vlissides&action=edit&redlink=1) ，简称”四人组（Gang of Four，GoF）“的书。
 
 
 
@@ -86,6 +98,16 @@
 - [策略](https://zh.wikipedia.org/wiki/策略模式)(***Strategy***)
 - [模板方法](https://zh.wikipedia.org/wiki/模板方法模式)(***Template method***)
 - [参观者](https://zh.wikipedia.org/wiki/訪問者模式)(***Visitor***)
+
+
+
+### 总结：
+
+A：学设计模式有什么用？
+
+Q：设计出更优秀、干净明了的代码结构。
+
+推荐阅读： https://www.cnblogs.com/pony1223/p/7608955.html 
 
 
 

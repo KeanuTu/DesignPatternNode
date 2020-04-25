@@ -12,11 +12,11 @@
 
 ​	***类适配器***使用多重继承对一个接口和另一个接口进行匹配
 
-![类适配器](images/ClassAdapter.png)
+<img src="images/ClassAdapter.png" alt="类适配器" style="zoom:150%;align:center" />
 
 ​	***对象适配器***依赖于对象组合
 
-![对象适配器](images/objAdapter.png)
+<img src="images/objAdapter.png" alt="对象适配器" style="zoom:150%;align:center" />
 
 ***Target***：定义Client使用的与特定领域相关的接口
 
@@ -48,7 +48,7 @@
 
 #### 📰结构
 
-![桥接模式](images/BridgePattern.png)
+<img src="images/BridgePattern.png" alt="桥接模式" style="zoom:150%;align:center" />
 
 + ***Abstraction***（抽象层）
 
@@ -110,7 +110,7 @@
 
 + 通过Component接口操纵组合部件的对象
 
-![组合模式结构](images/Composite.png)
+<img src="images/Composite.png" alt="组合模式结构" style="zoom:150%;align:center" />
 
 它定义了如何将容器对象和叶子对象进行递归组合，使得客户在使用过程中无需区分。
 
@@ -147,7 +147,7 @@
 
 #### 📰结构
 
-![装饰者模式](images/Decorator.png)
+<img src="images/Decorator.png" alt="装饰者模式" style="zoom:80%;align:center" />
 
 装饰模式包含如下角色：
 
@@ -176,7 +176,7 @@
 
 第一个封装器负责加密和解密数据，而第二个则负责压缩和解压缩数据
 
-![](images/DecoratorDemo.png)
+<img src="images/DecoratorDemo.png" style="zoom:80%;align:center" />
 
 
 
@@ -188,14 +188,14 @@
 
 **真实世界类比**
 
-![](images/FacadeReal.png)
+<img src="images/FacadeReal.png" style="zoom:80%;align:center" />
 
 <div align="center">电话购物</div>
 ​	你只需要打一个电话给接线员（Facade)，由接线员为你提供一个同购物系统、支付网关和各种送货服务进行互动的简单语音接口。
 
 #### 📰结构
 
-![外观模式](images/Facade.png)
+<img src="images/Facade.png" alt="外观模式" style="zoom:80%;align:center" />
 
 1. **外观** （Facade） 提供了一种访问特定子系统功能的便捷方式， 其了解如何重定向客户端请求， 知晓如何操作一切活动部件。
 
@@ -223,7 +223,7 @@
 
 ​	外观提供了仅包含一个方法的类， 可用于处理对框架中所需类的配置与以正确格式获取结果的复杂工作。 
 
-![](images/FacadeDemo.png)
+<img src="images/FacadeDemo.png" style="zoom:80%;align:center" />
 
 
 
@@ -246,7 +246,7 @@
 
 #### 📰结构
 
-![享元](images/Flyweight.png)
+<img src="images/Flyweight.png" alt="享元" style="zoom:80%;align:center" />
 
 
 
@@ -282,7 +282,7 @@
 
 原因很简单： 太多树对象包含重复数据 （名称、 纹理和颜色）。 因此我们可用享元模式来将这些数值存储在单独的享元对象中 （ `Tree­Type` 类）。 现在我们不再将相同数据（**位置**）存储在数千个 `Tree` 对象中， 而是使用一组特殊的数值来引用其中一个享元对象。
 
-<img src="images/FlyweightDemo.png" style="zoom:80%;" />
+<img src="images/FlyweightDemo.png" style="zoom:80%;align:center" />
 
 ***享元工厂核心代码***
 
@@ -314,13 +314,13 @@ public class FlyweightFactory{
 
 **现实举例**：
 
-![Proxy](images/ProxyReal.png)
+<img src="images/ProxyReal.png" alt="Proxy" style="zoom:150%;align:center" />
 
 ​	现实生活中常用信用卡来代替现金的使用，而且在使用现金时，还有保护机制防止被被人盗用，这是现金没有的功能。信用卡是在现金的能用基础上拓展的功能。
 
 #### 📰结构
 
-![Proxy](images/Proxy.png)
+<img src="images/Proxy.png" alt="Proxy" style="zoom:80%;align:center" />
 
 1. **服务接口** （Service Interface） 声明了服务接口。 代理必须遵循该接口才能伪装成服务对象。
 2. **服务** （Service） 类提供了一些实用的业务逻辑。
@@ -361,5 +361,5 @@ public class FlyweightFactory{
 
 在用到需要的照片时就加载
 
-<img src="images/ProxyDemo.png" alt="VirtualProxy" style="zoom:67%;" />
+<img src="images/ProxyDemo.png" alt="VirtualProxy" style="zoom:80%;align:center" />
 

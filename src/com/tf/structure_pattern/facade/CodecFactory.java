@@ -1,6 +1,5 @@
 package com.tf.structure_pattern.facade;
 
-import com.tf.structure_pattern.Codec;
 
 public class CodecFactory {
     public static Codec extract(VideoFile file) {

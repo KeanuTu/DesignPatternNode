@@ -10,7 +10,7 @@
 
 **工厂方法**（Factory Method）为了解决这个问题，将生产不同具体产品的分散到子工厂类，工厂父类负责定义创建产品对象的公共接口。
 
-![Factory Method](image/FactoryMethod.png)
+<img src="image/FactoryMethod.png" alt="Factory Method" style="zoom:150%;" align="center" />
 
 **实际使用**：（静态）工厂方法可以隐藏创建产品的细节，且不一定每次都会真正创建产品，完全可以返回缓存的产品，从而提升速度并减少内存消耗。 
 
@@ -53,23 +53,21 @@ public final class Integer {
 
 ***Step 01***：将系列中的每件产品明确声明为接口，确保每个产品变体（`产品等级`）都继承/实现产品接口。
 
-<div align="center">
-
-![Abstract_01](image/Abstract_01.png)
+<img src="image/Abstract_01.png" alt="Abstract_01" style="zoom:60%;align:center;" />
 
   <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">同一对象的所有变体都必须放置在同一个类层次结构中</div>  
-</div>
+
 
 ***Step 02***：处理产品变体；声明`抽象工厂`接口里面包含所有类产品的方法，每个`具体工厂类`**继承**`抽象工厂类`并定义各自产品等级的产品（同类产品）
 
-![Abstract_01](image/Abstract_02.png)
+<img src="image/Abstract_02.png" alt="Abstract_01" style="zoom:80%;align:center;" />
 
 <div align="center" font-Size="10">
 每个具体工厂类都对应一个特定的产品变体</div>
 
 ### 📰结构
 
-![抽象工厂模式](./image/AbstractFactory.png)
+<img src="./image/AbstractFactory.png" alt="抽象工厂模式" style="zoom:80%;align:center;" />
 
 > 工厂方法与抽象工厂区别：
 >
@@ -80,7 +78,7 @@ public final class Integer {
 
 产品族与产品等级结构示意图
 
-![产品族与产品等级](./image/FactoryProduct.png)
+<img src="./image/FactoryProduct.png" alt="产品族与产品等级" style="zoom:60%;align:center;" />
 
 **抽象工厂模式**：
 
@@ -126,7 +124,7 @@ public final class Integer {
 
 ### 📰结构
 
-![建造者结构图](image/Builder.png)
+<img src="image/Builder.png" alt="建造者结构图" style="zoom:130%;align:center;" />
 
 ***Builder***：为创建一个**Product**对象的*各个部件*指定抽象接口。
 
@@ -145,7 +143,7 @@ public final class Integer {
 + 表示被构造的复杂对象
 + 包含定义组成部件的类（对象），包括将这些部件装配成最终产品的接口
 
-![协作图](image/BuilderTimegraph.png)
+<img src="image/BuilderTimegraph.png" alt="协作图" style="zoom:130%;align:center;" />
 
 
 
